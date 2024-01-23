@@ -31,3 +31,5 @@ while command != "END":
         print(f"Invalid input!")
         command = input()
         continue
+
+pass
