@@ -18,4 +18,3 @@ secondary_primary = [str(x) for x in secondary_diagonal]
 
 print(f"Primary diagonal: {', '.join(formated_primary)}. Sum: {sum(primary_diagonal)}")
 print(f"Secondary diagonal: {', '.join(secondary_primary)}. Sum: {sum(secondary_diagonal)}")
-
