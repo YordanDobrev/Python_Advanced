@@ -1,17 +1,11 @@
 def check(*num):
-    positive = []
-    negative = []
+    positive = sum([element for element in num if element > 0])
+    negative = sum([element for element in num if element < 0])
 
-    for index in num:
-        if index > 0:
-            positive.append(index)
-        else:
-            negative.append(index)
+    print(negative)
+    print(positive)
 
-    print(sum(negative))
-    print(sum(positive))
-
-    if abs(sum(negative)) > abs(sum(positive)):
+    if abs(negative) > abs(positive):
         return "The negatives are stronger than the positives"
     else:
         return "The positives are stronger than the negatives"
