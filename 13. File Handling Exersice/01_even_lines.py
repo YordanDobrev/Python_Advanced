@@ -1,6 +1,6 @@
 symbols = ("-", ",", ".", "!", "?")
 
-with open("resources/text.txt", "r") as file:
+with open("resources/text_even_lines.txt", "r") as file:
     text = file.readlines()
 
 for row in range(0, len(text), 2):
