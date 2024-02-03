@@ -1,6 +1,6 @@
 import os
 
-the_file = open("numbers.txt")
+the_file = open("resources/numbers.txt")
 
 to_read = the_file.readlines()
 

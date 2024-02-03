@@ -1,6 +1,6 @@
 import os
 
-file = "text.txt"
+file = "resources/text.txt"
 
 to_open = (open(file))
 
