@@ -30,7 +30,3 @@ print(softuni_students(
     id_22='Machine Learning',
     id_08='JS Advanced',
 ))
-
-# *** A student with the username Silvester1 has successfully finished the course Spring Advanced!
-# *** A student with the username The programmer has successfully finished the course Spring Advanced!
-# !!! Invalid course students: Katq21
