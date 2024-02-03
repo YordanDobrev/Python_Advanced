@@ -7,3 +7,8 @@ file.write("Top work!!!\n")
 file.close()
 
 [print(el, end="") for el in open("resources/my_first_file.txt")]
+
+with open("resources/my_next_file.txt", "a") as file:
+    file.write("Another one ??")
+
+[print(el, end="") for el in open("resources/my_next_file.txt")]
