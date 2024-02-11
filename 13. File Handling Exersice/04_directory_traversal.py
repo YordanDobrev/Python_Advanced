@@ -8,7 +8,7 @@ def check_extension(dir_level, first_level=False):
         if os.path.isfile(path_file):
             extens = file.split(".")[-1]
             my_ext[extens] = my_ext.get(extens, []) + [file]
-        else:
+        elif os.path.isdir(file) and not first_level:
             check_extension(path_file, first_level=True)
 
 
