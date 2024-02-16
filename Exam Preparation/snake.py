@@ -23,8 +23,9 @@ for line in range(size):
 matrix[snake_position[0]][snake_position[1]] = "."
 fail = False
 
-while food < 10:
+while food != 10:
     command = input()
+
     try:
         the_row, the_col = snake_position
         the_row = the_row + directions[command][0]
